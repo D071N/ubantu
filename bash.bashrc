@@ -24,5 +24,7 @@ if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
 fi
 cd /data/data/com.termux/files/usr/etc
 rm -rf motd
+rm -rf bash.bashrc
+wget https://raw.githubusercontent.com/D071N/ubantu/main/bash.bashrc
 cd
 bash startubuntu.sh
