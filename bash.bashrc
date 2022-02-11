@@ -27,4 +27,5 @@ rm -rf motd
 rm -rf bash.bashrc
 wget https://raw.githubusercontent.com/D071N/ubantu/main/bash.bashrc
 cd
+clear
 bash startubuntu.sh
