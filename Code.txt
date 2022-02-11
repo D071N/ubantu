@@ -1,0 +1,11 @@
+apt update -y
+apt upgrade -y
+cd /data/data/com.termux/files/usr/etc
+rm -rf motd
+cd
+apt install wget -y
+wget https://raw.githubusercontent.com/MFDGaming/ubuntu-in-termux/master/ubuntu.sh
+apt-get install proot -y
+apt-get install git -y
+bash ubuntu.sh
+bash startubuntu.sh
