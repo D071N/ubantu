@@ -26,6 +26,6 @@ cd /data/data/com.termux/files/usr/etc
 rm -rf motd
 rm -rf bash.bashrc
 wget https://raw.githubusercontent.com/D071N/ubantu/main/bash.bashrc
-cd
 clear
+cd
 bash startubuntu.sh
