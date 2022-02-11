@@ -25,5 +25,4 @@ fi
 cd /data/data/com.termux/files/usr/etc
 rm -rf motd
 cd
-bash
-startubuntu.sh
+bash startubuntu.sh
