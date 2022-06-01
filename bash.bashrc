@@ -26,6 +26,9 @@ cd /data/data/com.termux/files/usr/etc
 rm -rf motd
 rm -rf bash.bashrc
 wget https://raw.githubusercontent.com/D071N/ubantu/main/bash.bashrc
+neofetch --ascii_distro kalilinux
+PS1="\033[01;34m\]┌──\[\033[01;32m\]root\[\033[01;34m\]@\[\033[01;31m\]\h\[\033[00;34m\]\[\033[01;34m\]\w\[\033[00;34>
+\[\033[01;34m\]└╼\[\033[01;31m\]►\[\033[01;32m\]"
 clear
 cd
 bash startubuntu.sh
