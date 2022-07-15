@@ -1,5 +1,6 @@
 apt update -y
 apt upgrade -y
+pkg install neofetch
 termux-setup-storage
 cd /data/data/com.termux/files/usr/etc
 rm -rf motd
