@@ -28,7 +28,6 @@ rm -rf bash.bashrc
 wget https://raw.githubusercontent.com/D071N/ubantu/main/bash.bashrc
 clear
 cd
-bash startubuntu.sh
 neofetch --ascii_distro kalilinux
 PS1="\033[01;34m\]┌──\[\033[01;32m\]root\[\033[01;34m\]@\[\033[01;31m\]\h\[\033[00;34m\]\[\033[01;34m\]\w\[\033[00;34>
 \[\033[01;34m\]└╼\[\033[01;31m\]►\[\033[01;32m\]"
